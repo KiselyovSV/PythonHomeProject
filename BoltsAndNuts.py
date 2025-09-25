@@ -27,12 +27,6 @@ else:
                     else:
                         lost_bolts = k1 / 100 * l1
                         lost_nuts = k2 / 100 * l2
-                        # if lost_bolts > lost_nuts:
-                        #     damage = lost_bolts * m1 + lost_bolts * m2
-                        # elif lost_bolts < lost_nuts:
-                        #     damage = lost_nuts * m1 + lost_nuts * m2
-                        # else:
-                        #     damage = lost_bolts * m1 + lost_nuts * m2
                         remaining_bolts = k1 - lost_bolts
                         remaining_nuts = k2 - lost_nuts
                         if remaining_bolts > remaining_nuts:
